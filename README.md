@@ -165,5 +165,6 @@ It provide a new fast way to build Spring-based application.
 * Functional programming
 * Asynchronous observers
 
-### Lombok
-https://projectlombok.org/
+### Tools
+- [Lombok](https://projectlombok.org/)
+- [JDL-studio](https://start.jhipster.tech/jdl-studio/), database modeling tools
