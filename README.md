@@ -156,6 +156,40 @@ It provide a new fast way to build Spring-based application.
 * Spring Security addresses a broad range of application security needs, including authentication, authorization, and API security.
 
 
+### Clean Architecture with Spring by Tom Hombergs @ Spring I/O 2019
+- SOLID
+- [Link](https://www.youtube.com/watch?v=cPH5AiqLQTo)
+
+```
+---------------------------------------------------------------------------------------------
+ Layer
+
+                                                 Controller
+
+---------------------------------------------------------------------------------------------
+Domain Layer
+
+                                                 Service(Use case)
+                                                   /\
+                                                /      \
+                                             /           \
+                        Repository<<Interface>>  <--->  Entity
+                                    |
+                                    |
+---------------------------------------------------------------------------------------------
+Persistence Layer                   |
+                                    |
+                                    |
+                              Repository Impl
+
+
+
+
+
+
+```
+
+
 ## Miscellaneous
 ### Reactive Programming
 
